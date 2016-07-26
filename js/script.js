@@ -1,6 +1,6 @@
 //---------- Variables ----------
 
-var temps = 1;
+var temps = 25;
 var modePause = false;
 var secInMin = 60;
 var minuteurMin;
@@ -22,7 +22,7 @@ function lancerMinuteur() {
     $("#play").prop("disabled", true);
     $("#pause").prop("disabled", false);
     $("#stop").prop("disabled", false);
-    
+
 }
 
 function interface() {
@@ -39,16 +39,16 @@ function decrementerSec() {
         minuteurSec = 59;
         minuteurMin--;
     } else if (minuteurMin == 0 && minuteurSec == 0) {
-        if(modePause){
+        if (modePause) {
             minuteurSec = 59;
-            minuteurMin= 4;
+            minuteurMin = 4;
             modePause = false;
-        }else{
+        } else {
             minuteurSec = 59;
             minuteurMin = 4;
             modePause = true;
         }
-        
+
     } else {
         minuteurSec--;
     }
@@ -91,4 +91,10 @@ function tache() {
     var objetUl = document.getElementById("done");
     objetUl.insertBefore(objetLi, objetUl.firstChild);
     $("li").addClass("list-group-item");
+}
+
+//---------- Thèmes ----------
+
+function changeColor(color) {
+ document.body.style.backgroundColor = color;
 }
