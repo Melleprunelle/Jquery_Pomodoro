@@ -1,15 +1,108 @@
+body {
+    background-color: darkslategray;
+}
+h1 {
+    color:whitesmoke;
+    text-shadow: 0px 2px 2px black;
+}
+
+h4 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: whitesmoke;
+    text-shadow: 0px 2px 2px black;
+}
+
+h5 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-shadow: 0px 2px 2px black;
+}
+
+li {
+    color: dimgrey;
+    opacity: 0.8;
+    border:none;
+}
+
+form div {
+    display: flex;
+}
+
 .container {
     width: 400px;
     margin: 0 auto;
 }
-h1 {
-    color: red;
-    text-transform: uppercase;
-}
+
 #controls {
     text-align: center;
+    margin-top:55px;
 }
+
 .time {
     font-weight: bold;
-    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    color: whitesmoke;
+    font-size: 10em;
+    text-shadow: 0px 3px 3px black;
+    opacity: 0.9;
+}
+
+.btn-lg {
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: 0px 4px 4px black;
+    opacity: 0.9;
+}
+
+.btn-lg:active {
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: 0px 1px 1px black;
+}
+
+.glyphicon {
+    color: darkcyan;
+}
+
+.list-group-item {
+    border: none;
+    background-color: whitesmoke;
+    text-decoration: line-through;
+}
+
+ul {
+    height: 150px;
+    overflow: auto;
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 4px black;
+    opacity: 0.8;
+    border-radius: 3px;
+}
+
+#task {
+    border: none;
+    opacity: 0.8;
+    width: 250px;
+    height: 30px;
+    margin-top:30px;
+    margin-right: 0px;
+    border-radius: 0%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn-success {
+    background-color: darkcyan;
+    border:none;
+    margin-top: 30px;
+    margin-left: 0px;
+    height: 30px;
+    border-radius: 0%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
