@@ -13,9 +13,14 @@
 
 <body>
     <section id="theme">
-        <div class="theme" id="pink" onclick="changeColor('crimson')"></div>
-        <div class="theme" id="orange" onclick="changeColor('orangered')"></div>
-        <div class="theme" id="red" onclick="changeColor('darkred')"></div>
+        <div class="theme-degrade" id="pink" data-degrade="degrade-pink"></div>
+        <div class="theme-degrade" id="red" data-degrade="degrade-red"></div>
+        <div class="theme-degrade" id="green" data-degrade="degrade-green"></div>
+        <div class="theme-degrade" id="orange" data-degrade="degrade-orange"></div>
+        <div class="theme-degrade" id="brown" data-degrade="degrade-brown"></div>
+        <div class="theme-degrade" id="blue" data-degrade="degrade-blue"></div>
+        <div class="theme-degrade" id="cyan" data-degrade="degrade-cyan"></div>
+        <div class="theme-degrade" id="black" data-degrade="degrade-black"></div>
     </section>
     
     <div class="container">
@@ -36,7 +41,7 @@
             <div class="form-group">
                 <label for="task"></label>
                 <input type="text" id="task" class="form-control center-block" value="Votre tâche...">
-                <button type="button" class="btn btn-success center-block" onclick="tache()">Success</button>
+                <button type="button" class="btn btn-success center-block">Success</button>
             </div>
         </form>
 

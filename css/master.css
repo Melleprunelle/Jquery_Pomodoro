@@ -1,8 +1,9 @@
 body {
-    background-color: crimson;
+    background: radial-gradient(ellipse at center, rgba(212, 76, 108, 1) 0%, rgba(207, 12, 58, 1) 100%);
 }
+
 h1 {
-    color:whitesmoke;
+    color: whitesmoke;
     text-shadow: 0px 2px 2px black;
 }
 
@@ -16,7 +17,7 @@ h5 {
 li {
     color: dimgrey;
     opacity: 0.8;
-    border:none;
+    border: none;
 }
 
 form div {
@@ -30,7 +31,8 @@ form div {
 
 #controls {
     text-align: center;
-    margin-top:35px;;
+    margin-top: 35px;
+    ;
 }
 
 .time {
@@ -39,14 +41,14 @@ form div {
     margin-bottom: -20px;
     color: whitesmoke;
     font-size: 10em;
-    text-shadow: 0px 3px 3px black;
+    text-shadow: 0px 3px 5px black;
     opacity: 0.9;
 }
 
 .btn-lg {
     background-color: whitesmoke;
     border: none;
-    box-shadow: 0px 4px 4px black;
+    box-shadow: 0px 4px 5px black;
     opacity: 0.9;
 }
 
@@ -70,7 +72,7 @@ ul {
     height: 150px;
     overflow: auto;
     background-color: whitesmoke;
-    box-shadow: 0px 4px 4px black;
+    box-shadow: 0px 4px 5px black;
     opacity: 0.8;
     border-radius: 3px;
 }
@@ -80,7 +82,7 @@ ul {
     opacity: 0.8;
     width: 250px;
     height: 30px;
-    margin-top:30px;
+    margin-top: 30px;
     margin-right: 0px;
     border-radius: 0%;
     border-top-left-radius: 3px;
@@ -89,7 +91,7 @@ ul {
 
 .btn-success {
     background-color: darkcyan;
-    border:none;
+    border: none;
     margin-top: 30px;
     margin-left: 0px;
     height: 30px;
@@ -102,22 +104,77 @@ section {
     display: flex;
     flex: auto;
 }
-.theme {
+
+/*============== THEMES =============*/
+
+.theme-degrade {
     height: 10px;
     width: 10px;
     border-radius: 100%;
-    margin:10px;
+    margin: 10px;
+    box-shadow: 0px 2px 2px black;
 }
 
 #pink {
-    background-color: crimson;
-    box-shadow: 0px 2px 2px black;
+    background: radial-gradient(ellipse at center, rgba(212, 76, 108, 1) 0%, rgba(207, 12, 58, 1) 100%);
 }
-#orange {
-    background-color: orangered;
-    box-shadow: 0px 2px 2px black;
+
+.degrade-pink {
+    background: radial-gradient(ellipse at center, rgba(212, 76, 108, 1) 0%, rgba(207, 12, 58, 1) 100%);
 }
+
 #red {
-    background-color: darkred;
-    box-shadow: 0px 2px 2px black;
+    background: radial-gradient(ellipse at center, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%);
+}
+
+.degrade-red {
+    background: radial-gradient(ellipse at center, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%);
+}
+
+#green {
+    background: radial-gradient(ellipse at center, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+}
+
+.degrade-green {
+    background: radial-gradient(ellipse at center, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+}
+
+#black {
+    background: radial-gradient(ellipse at center, rgba(64,63,64,1) 0%, rgba(19,19,19,1) 100%);
+}
+
+.degrade-black {
+     background: radial-gradient(ellipse at center, rgba(64,63,64,1) 0%, rgba(19,19,19,1) 100%);
+}
+
+#orange {
+    background: radial-gradient(ellipse at center, rgba(247,113,89,1) 0%, rgba(246,41,12,1) 100%);
+}
+
+.degrade-orange {
+     background: radial-gradient(ellipse at center, rgba(247,113,89,1) 0%, rgba(246,41,12,1) 100%);
+}
+
+#blue {
+    background: radial-gradient(ellipse at center, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+}
+
+.degrade-blue {
+     background: radial-gradient(ellipse at center, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+}
+
+#cyan {
+    background: radial-gradient(ellipse at center, rgba(111,252,203,1) 0%, rgba(0,41,107,1) 100%);
+}
+
+.degrade-cyan {
+     background: radial-gradient(ellipse at center, rgba(111,252,203,1) 0%, rgba(0,41,107,1) 100%);
+}
+
+#brown {
+    background: radial-gradient(ellipse at center, rgba(241,231,103,1) 0%, rgba(87,58,12,1) 100%);
+}
+
+.degrade-brown {
+     background: radial-gradient(ellipse at center, rgba(241,231,103,1) 0%, rgba(87,58,12,1) 100%);
 }
