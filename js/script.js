@@ -41,15 +41,15 @@
             minuteurSec = 59;
             minuteurMin--;
         } else if (minuteurMin == 0 && minuteurSec == 0) {  
-            alarm.play();
             nbPause++;
             if (nbPause <= 4) {
+                alarm.play();
                 minuteurSec = 59;
                 minuteurMin = 4;
                 modePause = false;
             }
             else {
-                alert("longue pause")
+                alarm.play();
                 minuteurSec = 59;
                 minuteurMin = 19;
                 modePause = true;

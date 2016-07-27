@@ -18,12 +18,11 @@
         <div class="theme-degrade" id="green" data-degrade="degrade-green"></div>
         <div class="theme-degrade" id="orange" data-degrade="degrade-orange"></div>
         <div class="theme-degrade" id="brown" data-degrade="degrade-brown"></div>
-        <div class="theme-degrade" id="blue" data-degrade="degrade-blue"></div>
         <div class="theme-degrade" id="cyan" data-degrade="degrade-cyan"></div>
         <div class="theme-degrade" id="black" data-degrade="degrade-black"></div>
     </section>
     
-    <div class="container">
+    <div class="container-fluid">
         <div id="controls">
             <p id="time" class="time">25:00</p>
             <button type="button" id="play" class="btn btn-default btn-lg" onclick="lancerMinuteur()">
@@ -38,14 +37,14 @@
         </div>
 
         <form>
-            <div class="form-group">
+            <div class="form-group col-md-offset-4 col-md-4">
                 <label for="task"></label>
                 <input type="text" id="task" class="form-control center-block" value="Votre tâche...">
                 <button type="button" class="btn btn-success center-block">Success</button>
             </div>
         </form>
 
-        <h5 class="text-center">TÂCHES TERMINÉES :</h5>
+        <h5 class="text-center col-md-12">TÂCHES TERMINÉES :</h5>
         <ul id="done" class="list-group center-block">
 
         </ul>

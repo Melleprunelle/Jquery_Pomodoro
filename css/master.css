@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(ellipse at center, rgba(212, 76, 108, 1) 0%, rgba(207, 12, 58, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255,173,217,1) 0%, rgba(212,0,39,1) 100%);
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
 }
 
 h5 {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: whitesmoke;
     text-shadow: 0px 2px 2px black;
@@ -38,9 +38,9 @@ form div {
 .time {
     font-weight: bold;
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
     color: whitesmoke;
-    font-size: 10em;
+    font-size: 20vh;
     text-shadow: 0px 3px 5px black;
     opacity: 0.9;
 }
@@ -58,6 +58,10 @@ form div {
     box-shadow: 0px 1px 1px black;
 }
 
+.center-block {
+    max-width: 40%;
+}
+
 .glyphicon {
     color: darkcyan;
 }
@@ -66,6 +70,7 @@ form div {
     border: none;
     background-color: whitesmoke;
     text-decoration: line-through;
+    max-width: 25%;
 }
 
 ul {
@@ -75,6 +80,14 @@ ul {
     box-shadow: 0px 4px 5px black;
     opacity: 0.8;
     border-radius: 3px;
+}
+
+li {
+    max-width: 100%;
+}
+
+.list-group {
+    padding-left:1px;
 }
 
 #task {
@@ -116,51 +129,43 @@ section {
 }
 
 #pink {
-    background: radial-gradient(ellipse at center, rgba(212, 76, 108, 1) 0%, rgba(207, 12, 58, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255,173,217,1) 0%, rgba(212,0,39,1) 100%);
 }
 
 .degrade-pink {
-    background: radial-gradient(ellipse at center, rgba(212, 76, 108, 1) 0%, rgba(207, 12, 58, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255,173,217,1) 0%, rgba(212,0,39,1) 100%);
 }
 
 #red {
-    background: radial-gradient(ellipse at center, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255,120,152,1) 0%, rgba(109,0,25,1) 100%);
 }
 
 .degrade-red {
-    background: radial-gradient(ellipse at center, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255,120,152,1) 0%, rgba(109,0,25,1) 100%);
 }
 
 #green {
-    background: radial-gradient(ellipse at center, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(219,237,116,1) 0%, rgba(95,110,10,1) 100%);
 }
 
 .degrade-green {
-    background: radial-gradient(ellipse at center, rgba(164, 179, 87, 1) 0%, rgba(117, 137, 12, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(219,237,116,1) 0%, rgba(95,110,10,1) 100%);
 }
 
 #black {
-    background: radial-gradient(ellipse at center, rgba(64,63,64,1) 0%, rgba(19,19,19,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(140,140,140,1) 0%, rgba(19,19,19,1) 100%);;
 }
 
 .degrade-black {
-     background: radial-gradient(ellipse at center, rgba(64,63,64,1) 0%, rgba(19,19,19,1) 100%);
+     background: radial-gradient(ellipse at center, rgba(140,140,140,1) 0%, rgba(19,19,19,1) 100%);
 }
 
 #orange {
-    background: radial-gradient(ellipse at center, rgba(247,113,89,1) 0%, rgba(246,41,12,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(250,194,130,1) 0%, rgba(255,94,0,1) 100%);
 }
 
 .degrade-orange {
-     background: radial-gradient(ellipse at center, rgba(247,113,89,1) 0%, rgba(246,41,12,1) 100%);
-}
-
-#blue {
-    background: radial-gradient(ellipse at center, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
-}
-
-.degrade-blue {
-     background: radial-gradient(ellipse at center, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+     background: radial-gradient(ellipse at center, rgba(250,194,130,1) 0%, rgba(255,94,0,1) 100%);
 }
 
 #cyan {
