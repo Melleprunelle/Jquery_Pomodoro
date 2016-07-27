@@ -40,22 +40,18 @@
         if (minuteurSec == 0 && minuteurMin != 0) {
             minuteurSec = 59;
             minuteurMin--;
-        } else if (minuteurMin == 24 && minuteurSec == 50) {  
+        } else if (minuteurMin == 0 && minuteurSec == 0) {  
             alarm.play();
             nbPause++;
-            if (modePause) {
+            if (nbPause <= 4) {
                 minuteurSec = 59;
                 minuteurMin = 4;
-                modePause = false;
-            }
-            else if(nbPause == 4) {
-                minuteurSec = 59;
-                minuteurMin = 19;
                 modePause = false;
             }
             else {
+                alert("longue pause")
                 minuteurSec = 59;
-                minuteurMin = 4;
+                minuteurMin = 19;
                 modePause = true;
             }
         } else {
@@ -79,7 +75,7 @@
     //---------- Fonction remise à zero ----------
 
     function remiseZero() {
-        if ($("#play").prop("disabled") == false) {
+        if ($("#play").prop("disabled") == false || true) {
             clearInterval(stopper);
             minuteurMin = temps;
             minuteurSec = 0;
@@ -110,7 +106,6 @@
 
     $('.theme-degrade').click(function changeBodyColorDegrade() {
         var degrade = $(this).attr('data-degrade');
-        console.log('ertyuio');
         $("body").attr("class","");
         $("body").addClass(degrade);
     });
